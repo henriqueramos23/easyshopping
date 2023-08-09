@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+.box-principal{
+    width: 100vw;
+    height: 100vh;
+}
+.ld-esquerdo{
+    display: inline-block;
+    width: 50%;
+    margin-left: 136px;
+    margin-top: 381px;
+}
+.ld-direito{
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+}
+img{
+    position: relative;
+    top: 15%;
+    right: 140px;
+}
+.titulo-principal{
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+    width: 368px;
+}
+.paragrafo{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    color: #5D5D7D;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    width: 540px;
+    margin-top: 15px;
+}
+button{
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    border: none;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-right: 41px;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.5;
+}
+.menu-superior{
+    margin-top:24px;
+    margin-left: 57px;
+}
+.texto-menu{
+    margin-right: 41px;
+    cursor: pointer;
+}
+.texto-menu:nth-child(2) {
+    opacity: 0.4;
+}
+a:hover{
+    opacity: 0.4;
+}
+a:active{
+    opacity: 0.8;
+}
+@media screen and (max-width: 900px) {
+    .ld-esquerdo{
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        padding: 0;
+    }  
+    .ld-direito{
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+    img{
+        position: static;
+        width: 90%;
+        height: 100%;
+    }
+    .menu-superior{
+        display: none;
+    }
+    .titulo-principal{
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 53.5px 0 53.5px;
+        text-align: center;
+    } 
+    .paragrafo{
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        width: auto;
+        margin: 15px 40px;
+        height: 96px;
+    }
+    button{
+        display: block;
+        margin: 0 auto;  
+    }
+    @media screen and (max-width: 330px) {
+        .ld-esquerdo{
+        height: 75%;   
+    }      
+    }
+    .titulo-principal{
+        margin: 35px 53.5px 0 53.5px;
+        
+}
+}
